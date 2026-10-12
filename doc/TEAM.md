@@ -8,7 +8,7 @@ Trưởng nhóm/người nộp: Lê Thanh Trường - 2A202602492
 
 Ngày lab/deadline áp dụng: 13/10/2026 11:59 (UTC+07:00) — Asia/Ho_Chi_Minh
 
-Commit dùng để chấm: `3b1b21a4037ae0350aed9e2e23c32b7ebaa789c8` (bản hoàn thành bài lab)
+Commit dùng để chấm: `1450c099db7a999f6c2025f1d71954afc91bff06` (bản hoàn thành bài lab)
 
 Nhóm chỉ có một thành viên; mục INDIVIDUAL bên dưới khai toàn bộ phần việc thực tế.
 
