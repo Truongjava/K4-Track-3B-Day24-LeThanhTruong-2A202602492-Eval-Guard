@@ -2,8 +2,19 @@ colang_version: "1.0"
 
 models:
   - type: main
-    engine: openai
-    model: gpt-4o-mini
+    # openai_chat = ChatOpenAI đăng ký trong setup_nemo_rails(); engine "openai" mặc
+    # định của NeMo chỉ dùng chat API khi tên model chứa gpt-3.5/gpt-4, mà gateway
+    # của lớp (ai-box) không có model đó.
+    engine: openai_chat
+    model: qwen3.8-flash
+    parameters:
+      max_tokens: 3000
+      # NeMo không tự truyền base_url; parameters vào thẳng kwargs của ChatOpenAI.
+      # model_name khai ở đây vì ChatOpenAI có alias "model" và engine openai_chat
+      # không nằm trong mapping cứng của NeMo — thiếu key này sẽ rơi về default
+      # gpt-3.5-turbo của langchain.
+      model_name: qwen3.8-flash
+      base_url: https://api.ai-box.vn/v1
 
 instructions:
   - type: general
