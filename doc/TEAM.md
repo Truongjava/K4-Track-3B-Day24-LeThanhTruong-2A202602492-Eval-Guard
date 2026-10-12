@@ -8,7 +8,7 @@ Trưởng nhóm/người nộp: Lê Thanh Trường - 2A202602492
 
 Ngày lab/deadline áp dụng: 13/10/2026 11:59 (UTC+07:00) — Asia/Ho_Chi_Minh
 
-Commit dùng để chấm: cập nhật sau khi commit bản cuối (xem `git rev-parse HEAD`)
+Commit dùng để chấm: `3b1b21a4037ae0350aed9e2e23c32b7ebaa789c8` (bản hoàn thành bài lab)
 
 Nhóm chỉ có một thành viên; mục INDIVIDUAL bên dưới khai toàn bộ phần việc thực tế.
 
@@ -107,6 +107,6 @@ P95 4271.9 ms (vượt budget 500 ms, ghi đúng số thật và phân tích tro
 
 ## Cập nhật sau khi nộp
 
-Bản nộp đầu tiên theo deadline 13/10/2026 11:59 (UTC+07:00); commit SHA ghi tại mục
-"Commit dùng để chấm" ở trên sau khi push bản cuối. Nếu phải sửa sau deadline sẽ ghi rõ
-commit/thời điểm/lý do tại đây và thông báo coach theo quy ước.
+Bản nộp đầu tiên theo deadline 13/10/2026 11:59 (UTC+07:00); commit dùng để chấm ghi tại
+mục "Commit dùng để chấm" ở trên. Nếu phải sửa sau deadline sẽ ghi rõ commit/thời điểm/lý do
+tại đây và thông báo coach theo quy ước.
